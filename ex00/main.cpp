@@ -1,9 +1,13 @@
 #include "Zombie.hpp"
 
-int main() {
+int main()
+{
     Zombie* heapZombie = newZombie("HeapZombie");
     heapZombie->announce();
     delete heapZombie;
+
+	Zombie z("Nico");
+	z.announce();
 
     randomChump("StackZombie");
 

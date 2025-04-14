@@ -4,16 +4,16 @@
 #include <string>
 #include <iostream>
 
-// Définition de la classe Zombie
-class Zombie {
-private:
-    std::string name;
+class Zombie
+{
+	private:
+		std::string name;
 
-public:
-    Zombie(std::string name);
-    ~Zombie();
+	public:
+		Zombie(std::string name);
+		~Zombie();
 
-    void announce() const;
+		void announce() const;
 };
 
 Zombie* newZombie(std::string name);
