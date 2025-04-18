@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
         return (1);
     }
 
-    std::string levels = {"DEBUG", "INFO", "WARNING", "ERROR"};
+    std::string levels[] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	std::string input = argv[1];
 	levelIndex = -1;
 
